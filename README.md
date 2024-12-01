@@ -70,7 +70,17 @@ pip install -r requirements.txt
 
 ## 🌌 Model Architectures
 
-### 1. SegResNet Architecture
+### 1. Diffusion Model Integration
+
+Our novel diffusion-based approach enhances segmentation through:
+
+- Progressive denoising for refined mask generation
+- Multi-step process with 1000 timesteps
+- Advanced feature extraction at multiple scales
+- Improved handling of tumor boundaries
+
+
+### 2. SegResNet Architecture
 ```mermaid
 graph TD
     A[Input Layer] --> B[DownBlock1]
@@ -83,33 +93,6 @@ graph TD
     H --> I[Output Layer]
 ```
 
-### 2. Diffusion Model Integration
-
-Our novel diffusion-based approach enhances segmentation through:
-
-- Progressive denoising for refined mask generation
-- Multi-step process with 1000 timesteps
-- Advanced feature extraction at multiple scales
-- Improved handling of tumor boundaries
-
-## 🏃‍♂️ Usage
-
-### Training
-
-```bash
-# Run standard training
-python train.py --model segresnet --epochs 40
-
-# Run with diffusion model
-python train.py --model diffusion --timesteps 1000
-```
-
-### Inference
-
-```bash
-# Run inference
-python predict.py --model_path ./models/best_model.pth --input_dir ./test_data
-```
 
 ## 📈 Training Parameters
 
