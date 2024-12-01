@@ -10,7 +10,7 @@
 > 🔬 Advanced brain tumor segmentation using deep learning on MRI scans
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/MRIAnomalyDetection/main/assets/brain_mri.png" alt="Brain MRI Segmentation" width="600"/>
+  <img src="https://github.com/manasamangipudi/MRIAnomalyDetection/blob/main/images/MRIAnomalyDetectionSample.png" alt="Brain MRI Segmentation" width="600"/>
 </div>
 
 ## ✨ Features
@@ -142,7 +142,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Your Name - manasa.mangipudi@rutgers.edu
 
-Project Link: [https://github.com/yourusername/MRIAnomalyDetection](https://github.com/yourusername/MRIAnomalyDetection)
+Project Link: [https://github.com/manasamangipudi/MRIAnomalyDetection](https://github.com/manasamangipudi/MRIAnomalyDetection)
 
 ---
 <div align="center">
