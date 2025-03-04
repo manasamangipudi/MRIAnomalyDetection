@@ -31,18 +31,18 @@
 |-------------------|------------|
 | VAE, without denoising | 0.298 |
 | VAE, with denoising (100 Epochs) | 0.322 |
-| SegResNet, without denoising | 0.653 |
-| SegResNet, with denoising | 0.652 |
-| **Diffusion Model (Ours)** | **0.700** |
+| SegResNet, without denoising | 0.603 |
+| SegResNet, with denoising | 0.602 |
+| **Diffusion Model (Ours)** | **0.650** |
 
 ### Key Findings
 
 1. **Baseline Models**
    - VAE-based approaches showed limited performance (0.298-0.322)
-   - Standard SegResNet achieved moderate success (0.653)
+   - Standard SegResNet achieved moderate success (0.603)
 
 2. **Our Contributions**
-   - Diffusion model achieved state-of-the-art performance (0.700)
+   - Diffusion model achieved state-of-the-art performance (0.650)
    - 7.3% improvement over traditional SegResNet
    - Significant improvement over VAE-based methods
 
